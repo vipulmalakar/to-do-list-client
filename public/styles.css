@@ -1,0 +1,145 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to right,#7b4397, #dc2430);
+  color: #fff;
+  padding: 1.5rem 2rem 0rem 2rem;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+.sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.sign h2{
+    font-size: 2rem;
+}
+#star{
+  color: red;
+}
+.sign input{
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 3rem;
+    width: 20rem;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 1rem;
+    padding: 1.54rem;
+}
+.register button, .newItemContainer button{
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 1rem;
+    width: 7rem;
+    color: black;
+    transition: 1s;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.to-do-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+}
+.item{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding: 15px;
+  color: rgba(29, 26, 26, 0.89);
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.to-do-items i{
+  cursor: pointer;
+  margin: 0 5px;
+}
+.to-do-items .add-task{
+  background-color: #fff;
+  margin-top: 40rem;
+  width: 35%;
+  border-radius: 10px;
+  padding: 8px;
+  color: rgba(29, 26, 26, 0.89);
+  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.to-do-items .add-task p{
+  font-weight: bolder;
+  font-size: 1.5rem;
+
+}
+.to-do-items .add-task span{
+  margin-left: 10px;
+  padding: 5px 13px;
+  border-radius: 10rem;
+  background-color: limegreen;
+}
+.newItemContainer{
+  background-color: #fff;
+  width: 35%;
+  border-radius: 10px;
+  padding: 8px;
+  color: rgba(29, 26, 26, 0.89);
+  display: flex;
+  flex-direction: column;
+}
+.newItemContainer h2{
+  text-align: center;
+}
+.newItemContainer .title{
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+.newItemContainer .title .head{
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.newItemContainer .title input{
+  height: 2rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+.newItemContainer .title textarea{
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+#today{
+  font-size: 2rem;
+  font-weight: bolder;
+}
